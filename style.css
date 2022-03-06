@@ -1,0 +1,48 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Fredoka&family=Open+Sans:wght@300&family=Quicksand:wght@400;500&display=swap');
+/* Imports */
+
+html{
+    background-color: #131415;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.title{
+    text-align: center;
+    font-size: 40px;
+}
+.subtit{
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+}
+.cat{
+    border-radius: 10px;
+    border: 5px solid;
+    margin: 50px;
+    animation: rgb 6s infinite;
+    max-width: 1000px;
+}
+.par{
+    text-align: center;
+}
+
+
+@keyframes rgb {
+    0%{border-color: #1F2933;}
+    33%{border-color: #442929;}
+    66%{border-color: #2c4429;}
+    100%{border-color: #1F2933;}
+}
+
+
+
+
