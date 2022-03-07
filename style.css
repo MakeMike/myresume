@@ -36,24 +36,19 @@ html{
 .con{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
+    align-items: center;
 }
 .par{
     text-align: center;
-    margin: 5px;
+    margin: 0.313rem;
+    font-size: 1.25rem;
 }
 .img{
-    width: 8rem;
-    margin: 5px;
+    width: 10rem;
+    margin: 0.313rem;
 }
-@media screen and (max-width: 980px) {
-    .con{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-  }
+
 @keyframes rgb {
     0%{
         border-color: #1F2933;
