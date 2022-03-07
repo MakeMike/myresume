@@ -33,8 +33,14 @@ html{
     max-width: 1000px;
     padding: 2rem;
 }
+.con{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
 .par{
     text-align: center;
+    margin: 5px;
 }
 
 
