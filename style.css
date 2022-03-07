@@ -37,10 +37,22 @@ html{
 
 
 @keyframes rgb {
-    0%{border-color: #1F2933;}
-    33%{border-color: #442929;}
-    66%{border-color: #2c4429;}
-    100%{border-color: #1F2933;}
+    0%{
+        border-color: #1F2933;
+        box-shadow: 1px 1px 5px 5px #1F2933;
+    }
+    33%{
+        border-color: #442929;
+        box-shadow: 1px 1px 5px 5px #442929;
+    }
+    66%{
+        border-color: #2c4429;
+        box-shadow: 1px 1px 5px 5px #2c4429;
+    }
+    100%{
+        border-color: #1F2933;
+        box-shadow: 1px 1px 5px 5px #1F2933;
+    }
 }
 
 
