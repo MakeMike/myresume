@@ -47,6 +47,7 @@ html{
 .img{
     width: 10rem;
     margin: 0.313rem;
+    margin-top: 1rem;
 }
 
 @keyframes rgb {
