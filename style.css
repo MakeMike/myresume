@@ -42,8 +42,18 @@ html{
     text-align: center;
     margin: 5px;
 }
-
-
+.img{
+    width: 8rem;
+    margin: 5px;
+}
+@media screen and (max-width: 980px) {
+    .con{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+  }
 @keyframes rgb {
     0%{
         border-color: #1F2933;
