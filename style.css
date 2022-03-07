@@ -30,6 +30,7 @@ html{
     margin: 50px;
     animation: rgb 6s infinite;
     max-width: 1000px;
+    padding: 2rem;
 }
 .par{
     text-align: center;
