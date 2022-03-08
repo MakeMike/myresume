@@ -50,6 +50,19 @@ html{
     margin: 0.313rem;
     margin-top: 1rem;
 }
+.imgs{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+@media screen and (max-width: 600px) {
+    .imgs{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
 
 @keyframes rgb {
     0%{
